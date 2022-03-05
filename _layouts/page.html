@@ -6,12 +6,18 @@
   </head>
   <body>
     <div id="page-container">
-      <div id="menu-container">
-        {% include pages-menu.html %}
+
+      <div id="header-container">
+        {% include header.html %}
       </div>
       
       <div id="content-container">
         {{content}}
       </div>
+
+      <div id="footer-container">
+        {% include footer.html %}
+      </div>
+
   </body>
 </html>

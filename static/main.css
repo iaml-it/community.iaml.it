@@ -1,12 +1,99 @@
-
-#page-container{
-  
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(50, 50, 50);
 }
 
-#menu-container{
+html, body{
+  height: 100%;
+}
 
+h1, h2, h3, h4, h5, h6, h7{
+  color: #3b00b3;
+}
+
+body, #page-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: 100%;
+}
+
+/* layout page.html */
+
+#header-container{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lightgray;
+  margin: 0px;
+  padding: 10px 100px 10px 100px;
 }
 
 #content-container{
+  margin: 0px 100px 0px 100px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 10px;
+  flex-grow: 1;
+}
 
+#footer-container{
+  padding:  20px 120px 20px 120px;
+  border-top: 1px lightgray solid;
+}
+
+/* include maibn-menu.html */
+
+#header-menu{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+#page-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-grow: 1;
+}
+
+#page-menu ul{
+  margin: 0;
+  padding:0;
+}
+
+#page-menu li{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
+}
+
+#page-menu a{
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20;
+}
+
+/*HOME*/
+
+#logo-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+
+#logo-box .logo-box-spacer{
+  width: 100px;
+}
+
+#logo-box .logo-box-item{
+  display: flex;
+  justify-content: center;
+}
+
+#logo-box .logo-box-item img{
+  size: 100px;
 }
