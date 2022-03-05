@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <title>{{page.title}}</title>
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="menu-container">
+        {% include pages-menu.html %}
+      </div>
+      
+      <div id="content-container">
+        {{content}}
+      </div>
+  </body>
+</html>
