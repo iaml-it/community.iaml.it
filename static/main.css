@@ -1,6 +1,6 @@
 * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(50, 50, 50);
+  font-family: Arial, Helvetica;
 }
 
 html, body{
@@ -10,6 +10,11 @@ html, body{
 h1, h2, h3, h4, h5, h6, h7{
   color: #3b00b3;
 }
+
+html {
+  font-family:Source Sans Pro,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  line-height:1.5
+ }
 
 body, #page-container {
   margin: 0;
@@ -24,25 +29,41 @@ body, #page-container {
 #header-container{
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #e6e6e6;
   margin: 0px;
   padding: 10px 100px 10px 100px;
 }
 
 #content-container{
   margin: 0px 100px 0px 100px;
-  border-left: 1px solid lightgray;
-  border-right: 1px solid lightgray;
   padding: 10px;
   flex-grow: 1;
 }
 
 #footer-container{
-  padding:  20px 120px 20px 120px;
-  border-top: 1px lightgray solid;
+  padding:  20px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  border-top: 1px #e6e6e6 solid;
 }
 
-/* include maibn-menu.html */
+/* include footer.html */
+#main-footer{
+  display: flex;
+  flex-direction:row;
+}
+
+#main-footer #footer-links{
+  flex-grow: 1;
+  justify-content:flex-end;
+  text-align: right;
+}
+
+#main-footer #footer-links a{
+  padding-left: 15px;
+}
+
+/* include main-menu.html */
 
 #header-menu{
   display: flex;
@@ -84,16 +105,32 @@ body, #page-container {
   flex-grow: 1;
 }
 
-
 #logo-box .logo-box-spacer{
   width: 100px;
 }
 
 #logo-box .logo-box-item{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 #logo-box .logo-box-item img{
   size: 100px;
+}
+
+.content-box-h{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-box-h h1{
+  text-align: center;
+}
+
+.content-box-h div{
+  text-align: center;
+  justify-content: center;
 }
