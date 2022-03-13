@@ -8,8 +8,6 @@ title: IAML Community
   <h1 id="main-title-text">The italian AI and ML community.</h1>
   <br>
   <div style="width:70%; margin-left:auto; margin-right:auto;">
-  L'iniziativa IAML Community nasce per continuare il progetto iniziato da <a href="https://history.iaml.it/">IAML</a>, creare un network fra le realtà Italiane che si dedicano a machine learning ed intelligenza artificiale.   
-
   The IAML Community initiative continues the project started by <a href="https://history.iaml.it/">IAML</a>, to create a network between the many Italian entities which are invested in machine learning and artificial intelligence.
   </div>
 </div>
