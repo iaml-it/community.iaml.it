@@ -16,8 +16,6 @@ title: IAML Community
 
 <div class="content-box-h">
   <h2 id="join-us-text">Channels</h2>
-
-
   <div id="logo-box">
     <div class="logo-box-item">    
         <a href="https://discord.gg/jcnytWM4Vk">
@@ -38,5 +36,6 @@ title: IAML Community
 <br><br><br>
 
 <div class="content-box-h">
-  
+  Let us know your community exist, we will add you to the list of known communities:
+  [Add your Community](https://forms.gle/4AUNUpyt5WignEYm6)
 </div>
