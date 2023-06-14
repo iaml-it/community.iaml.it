@@ -37,5 +37,5 @@ title: IAML Community
 
 <div class="content-box-h">
   Let us know your community exist, we will add you to the list of known communities:
-  [Add your Community](https://forms.gle/4AUNUpyt5WignEYm6)
+  <a href="https://forms.gle/4AUNUpyt5WignEYm6">ADD YOUR COMMUNITY</a>
 </div>
